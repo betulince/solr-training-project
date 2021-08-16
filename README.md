@@ -1,1 +1,2 @@
 # solr-training-project
+readme
