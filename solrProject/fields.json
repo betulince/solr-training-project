@@ -1,0 +1,462 @@
+{
+  "EN": [
+    {
+      "name": "name_#",
+      "type": "sgm_text_en",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "name"
+    },
+    {
+      "name": "brand_#",
+      "type": "sgm_text_en",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "brand"
+    },
+    {
+      "name": "category_flat_#",
+      "type": "sgm_category_flat_en",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "dataLoadType": "ALL_ITEM",
+      "productAccessor": "category"
+    },
+    {
+      "name": "category_#",
+      "type": "sgm_text_engram_en",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "category"
+    },
+    {
+      "name": "category_last_item_no_engram_#",
+      "type": "sgm_text_en",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "dataLoadType": "CATEGORY_LAST_ITEM",
+      "productAccessor": "category"
+    },
+    {
+      "name": "category_last_item_#",
+      "type": "sgm_text_engram_en",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "dataLoadType": "CATEGORY_LAST_ITEM",
+      "productAccessor": "category"
+    },
+    {
+      "name": "labels_list_#",
+      "type": "sgm_list_en",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "true",
+      "productAccessor": "labels"
+    },
+    {
+      "name": "colors_list_#",
+      "type": "sgm_list_en",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "true",
+      "productAccessor": "colors"
+    }
+  ],
+  "TR": [
+    {
+      "name": "name_#",
+      "type": "sgm_text_tr",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "name"
+    },
+    {
+      "name": "brand_#",
+      "type": "sgm_text_tr",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "brand"
+    },
+    {
+      "name": "category_flat_#",
+      "type": "sgm_category_flat_tr",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "dataLoadType": "ALL_ITEM",
+      "productAccessor": "category"
+    },
+    {
+      "name": "category_#",
+      "type": "sgm_text_engram_tr",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "category"
+    },
+    {
+      "name": "category_last_item_no_engram_#",
+      "type": "sgm_text_tr",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "dataLoadType": "CATEGORY_LAST_ITEM",
+      "productAccessor": "category"
+    },
+    {
+      "name": "category_last_item_#",
+      "type": "sgm_text_engram_tr",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "dataLoadType": "CATEGORY_LAST_ITEM",
+      "productAccessor": "category"
+    },
+    {
+      "name": "labels_list_#",
+      "type": "sgm_list_tr",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "true",
+      "productAccessor": "labels"
+    },
+    {
+      "name": "colors_list_#",
+      "type": "sgm_list_tr",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "true",
+      "productAccessor": "colors"
+    }
+  ],
+  "NOLANG": [
+    {
+      "name": "product_id_engram",
+      "type": "sgm_text_engram_nolang",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "productId"
+    },
+    {
+      "name": "groupId",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "false",
+      "productAccessor": "groupId"
+    },
+    {
+      "name": "params_ws_code_*",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "facetField": "true",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "params.ws_code"
+    },
+    {
+      "name": "params_sku_*",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "params.sku"
+    },
+    {
+      "name": "inStock",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "facetField": "true",
+      "indexType": "field",
+      "multiValued": "true",
+      "productAccessor": "inStock"
+    },
+    {
+      "name": "stockCount_*",
+      "orig": "true",
+      "type": "pint",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "dynamicField",
+      "facetField": "true",
+      "multiValued": "false",
+      "productAccessor": "stockCount"
+    },
+    {
+      "name": "stockRatio",
+      "orig": "true",
+      "type": "pdouble",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "false",
+      "productAccessor": "stockRatio"
+    },
+    {
+      "name": "stockStatus",
+      "orig": "true",
+      "type": "pint",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "false",
+      "productAccessor": "stockStatus"
+    },
+    {
+      "name": "rockScore",
+      "orig": "true",
+      "type": "pdouble",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "rockScore"
+    },
+    {
+      "name": "price_*",
+      "orig": "true",
+      "type": "pdouble",
+      "stored": "true",
+      "indexed": "true",
+      "facetField": "true",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "price"
+    },
+    {
+      "name": "specialPrice_*",
+      "orig": "true",
+      "type": "pdouble",
+      "stored": "true",
+      "indexed": "true",
+      "facetField": "true",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "specialPrice"
+    },
+    {
+      "name": "name_orig_*",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "false",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "name"
+    },
+    {
+      "name": "brand_orig",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "false",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "false",
+      "productAccessor": "brand"
+    },
+    {
+      "name": "category_orig_*",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "false",
+      "facetField": "true",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "category"
+    },
+    {
+      "name": "mainCategory_orig_*",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "false",
+      "facetField": "true",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "mainCategory"
+    },
+    {
+      "name": "categories_orig_*",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "false",
+      "facetField": "true",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "categories"
+    },
+    {
+      "name": "labels_orig_*",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "false",
+      "facetField": "true",
+      "indexType": "dynamicField",
+      "multiValued": "true",
+      "productAccessor": "labels"
+    },
+    {
+      "name": "colors_orig",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "false",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "true",
+      "productAccessor": "colors"
+    },
+    {
+      "name": "name_nolang_*",
+      "type": "sgm_text_engram_nolang",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "dynamicField",
+      "multiValued": "false",
+      "productAccessor": "name"
+    },
+    {
+      "name": "brand_nolang",
+      "type": "sgm_text_engram_nolang",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "brand"
+    },
+    {
+      "name": "labels_nolang_*",
+      "type": "sgm_text_engram_nolang",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "dynamicField",
+      "multiValued": "true",
+      "productAccessor": "labels"
+    },
+    {
+      "name": "colors_nolang",
+      "type": "sgm_text_engram_nolang",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "true",
+      "productAccessor": "colors"
+    },
+    {
+      "name": "gender",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "false",
+      "productAccessor": "gender"
+    },
+    {
+      "name": "sizes",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "true",
+      "productAccessor": "sizes"
+    },
+    {
+      "name": "allSizes",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "true",
+      "productAccessor": "allSizes"
+    },
+    {
+      "name": "totalMonthlyPurchases",
+      "orig": "true",
+      "type": "pint",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "totalMonthlyPurchases"
+    },
+    {
+      "name": "insertTime",
+      "orig": "true",
+      "type": "plong",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "multiValued": "false",
+      "productAccessor": "insertTime"
+    },
+    {
+      "name": "language",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "false",
+      "productAccessor": "language"
+    },
+    {
+      "name": "currency",
+      "orig": "true",
+      "type": "string",
+      "stored": "true",
+      "indexed": "true",
+      "indexType": "field",
+      "facetField": "true",
+      "multiValued": "false",
+      "productAccessor": "currency"
+    }
+  ]
+}
