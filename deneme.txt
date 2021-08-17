@@ -1,8 +1,0 @@
-deneme 1 2
-
-deneme
- 
-main deneme
-
-
-changes on deneme.txt
