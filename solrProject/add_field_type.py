@@ -13,8 +13,3 @@ def add_field_type(collection_name):
             payload = json.dumps({"add-field-type": field_type})
             response = requests.request("POST", url, headers=headers, data=payload)
             print(response.text)
-
-
-
-
-
