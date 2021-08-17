@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+deneme 1 2 
+
+deneme
+=======
+deneme 1 2
+
+deneme
+ 
+main deneme
+>>>>>>> main
