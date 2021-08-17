@@ -1,7 +1,0 @@
-deneme 1 2
-
-deneme
- 
-main deneme
-
-changes again
